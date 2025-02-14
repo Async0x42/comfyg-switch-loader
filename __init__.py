@@ -1,4 +1,4 @@
-from .ComfygSwitch import ComfygSwitch 
-NODE_CLASS_MAPPINGS = { "ComfygSwitch" : ComfygSwitch }
-NODE_DISPLAY_NAME_MAPPINGS = { "ComfygSwitch" : "Comfyg Switch" }
+from .ComfygSwitchLoader import ComfygSwitchLoader 
+NODE_CLASS_MAPPINGS = { "ComfygSwitchLoader" : ComfygSwitchLoader }
+NODE_DISPLAY_NAME_MAPPINGS = { "ComfygSwitchLoader" : "Comfyg Switch Loader" }
 __all__ = ['NODE_CLASS_MAPPINGS', 'NODE_DISPLAY_NAME_MAPPINGS']
